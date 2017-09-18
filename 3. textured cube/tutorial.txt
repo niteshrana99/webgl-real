@@ -1,0 +1,2 @@
+Vector: X,Y,Z in 3d space and along with 4th component(1 for position, 0 for directions).
+Every vertex has texture coordinate and given in U and V and works for 0 to 1. So we will get each vertex a point and when the triangle is rasterised, we will get a point btw 0 and 1.

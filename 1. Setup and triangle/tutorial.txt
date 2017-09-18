@@ -1,0 +1,10 @@
+Webgl uses <canvas> to draw. So first we define this context.
+Webgl stands for Web graphics library.
+
+Vertex shader:Give each vertex a position, and any other information you want to attach as well. The role of vertex shader is basically to take the 3d points we gave it and put it in a 3d space. 
+
+We have a co-ordinate system that goes from 1 to -1 from top to bottom as well as left to right. We can also give addition information to vertex example color.
+
+Rasterisation:Fill in the triangles or lines or whatever. 
+
+Fragment shader: Give each pixel a color, from the information provided from the rasterizer and uniforms.
